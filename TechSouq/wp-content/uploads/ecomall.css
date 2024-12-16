@@ -1,0 +1,154 @@
+	
+:root{
+	--ts-logo-width: 160px;
+	
+	--ts-img-gap: 5px;
+	
+	--ts-pr-font-family: Mulish;
+	--ts-pr-font-style: normal;
+	--ts-pr-font-weight: 500;
+	--ts-pr-line-height: 1.6em;
+	--ts-pr-letter-spacing: 0.025em;
+	--ts-body-font-size: 15px;
+	
+	--ts-heading-font-family: Mulish;
+	--ts-heading-font-style: normal;
+	--ts-heading-font-weight: 700;
+	--ts-heading-line-height: 1.2em;
+	--ts-heading-letter-spacing: 0.025em;
+	
+	--ts-btn-font-family: Mulish;
+	--ts-btn-font-style: normal;
+	--ts-btn-font-weight: 800;
+	--ts-btn-line-height: 1em;
+	--ts-btn-letter-spacing: 0.05em;
+	--ts-btn-font-size: 14px;
+	
+	--ts-menu-font-family: Mulish;
+	--ts-menu-font-weight: 800;
+	--ts-menu-font-size: 15px;
+	--ts-menu-letter-spacing: 0.05em;
+	
+	--ts-v-menu-font-family: Mulish;
+	--ts-v-menu-font-weight: 700;
+	--ts-v-menu-font-size: 15px;
+	--ts-v-menu-letter-spacing: 0.05em;
+	
+	--ts-btn-ipad-font-size: 13px;
+	
+	--ts-primary-color: rgba(244,118,16,1);
+	--ts-text-in-primary-color: rgba(255,255,255,1);
+		--ts-primary-opacity: rgba(244,118,16,0.1);
+	--ts-primary-loading-color: rgba(244,118,16,0.5);
+		--ts-main-bg: rgba(255,255,255,1);
+	--ts-text-color: rgba(0,0,0,1);
+	--ts-heading-color: rgba(0,0,0,1);
+	--ts-gray-color: rgba(132,132,132,1);
+	--ts-hightlight: rgba(252,132,4,1);
+	--ts-dropdown-bg: rgba(255,255,255,1);
+	--ts-dropdown-color: rgba(0,0,0,1);
+	--ts-link-color: rgba(0,104,200,1);
+	--ts-link-hover-color: rgba(0,104,200,1);
+	--ts-border: rgba(235,235,235,1);
+	
+	--ts-tag-color: rgba(132,132,132,1);
+	--ts-tag-bg: rgba(255,255,255,0);
+	--ts-tag-border: rgba(235,235,235,1);
+	
+	--ts-blockquote-bg-color: rgba(232,243,254,1);
+	--ts-blockquote-icon-color: rgba(0,0,0,1);
+	--ts-blockquote-text-color: rgba(0,0,0,1);
+	
+	--ts-input-color: rgba(0,0,0,1);
+	--ts-input-background-color: rgba(255,255,255,1);
+	--ts-input-border: rgba(235,235,235,1);
+	
+	--ts-btn-color: rgba(255,255,255,1);
+	--ts-btn-bg: rgba(244,118,16,1);
+	--ts-btn-border: rgba(244,118,16,1);
+	--ts-btn-hover-color: rgba(238,144,67,1);
+	--ts-btn-hover-bg: rgba(255,255,255,0);
+	--ts-btn-hover-border: rgba(244,118,16,1);
+		--ts-button-loading-color: rgba(255,255,255,0.5);
+			--ts-button-loading-hover-color: rgba(238,144,67,0.5);
+		
+	--ts-btn-special-color: rgba(0,0,0,1);
+	--ts-btn-special-bg: rgba(228,242,255,1);
+	--ts-btn-special-border: rgba(228,242,255,1);
+	--ts-btn-special-hover-color: rgba(0,0,0,1);
+	--ts-btn-special-hover-bg: rgba(255,255,255,0);
+	--ts-btn-special-hover-border: rgba(244,118,16,1);
+		--ts-button-loading-color: rgba(0,0,0,0.5);
+			--ts-button-loading-hover-color: rgba(0,0,0,0.5);
+			--ts-spe-btn-bg: rgba(228,242,255,0.15);
+		
+	--ts-btn-thumbnail-color: rgba(0,0,0,1);
+	--ts-btn-thumbnail-bg: rgba(255,255,255,1);
+	--ts-btn-thumbnail-border: rgba(235,235,235,1);
+	--ts-btn-thumbnail-hover-color: rgba(0,0,0,1);
+	--ts-btn-thumbnail-hover-bg: rgba(232,243,254,1);
+	--ts-btn-thumbnail-hover-border: rgba(232,243,254,1);
+		--ts-button-loading-color: rgba(0,0,0,0.5);
+			--ts-button-loading-hover-color: rgba(0,0,0,0.5);
+	
+	--ts-product-bg-color: rgba(255,255,255,1);
+	--ts-brand-bg: rgba(244,244,244,1);
+	--ts-rating-color: rgba(195,195,195,1);
+	--ts-rated-color: rgba(253,201,4,1);
+	--ts-product-price-color: rgba(221,40,49,1);
+	--ts-product-sale-price-color: rgba(132,132,132,1);
+	--ts-sale-label-color: rgba(255,255,255,1);
+	--ts-sale-label-bg: rgba(0,104,200,1);
+	--ts-new-label-color: rgba(255,255,255,1);
+	--ts-new-label-bg: rgba(0,0,0,1);
+	--ts-hot-label-color: rgba(255,255,255,1);
+	--ts-hot-label-bg: rgba(221,40,49,1);
+	--ts-soldout-label-color: rgba(255,255,255,1);
+	--ts-soldout-label-bg: rgba(145,145,145,1);
+	
+	--ts-breadcrumb-bg: rgba(244,244,244,1);
+	--ts-breadcrumb-color: rgba(0,0,0,1);
+	--ts-breadcrumb-link-color: rgba(132,132,132,1);
+	--ts-breadcrumb-v3-color: rgba(255,255,255,1);
+	--ts-breadcrumb-v3-link-color: rgba(255,255,255,1);
+}
+.ts-header{	
+	--ts-hd-top-bg: rgba(27,27,27,1);
+	--ts-hd-top-color: rgba(255,255,255,1);
+	--ts-hd-top-border: rgba(27,27,27,1);
+	--ts-hd-top-link-hover: rgba(0,104,200,1);
+	--ts-hd-middle-bg: rgba(255,255,255,1);
+	--ts-hd-middle-color: rgba(0,0,0,1);
+	--ts-hd-middle-border: rgba(235,235,235,1);
+	--ts-hd-middle-link-hover: rgba(0,104,200,1);
+	--ts-hd-bottom-bg: rgba(255,255,255,1);
+	--ts-hd-bottom-color: rgba(0,0,0,1);
+	--ts-hd-bottom-border: rgba(235,235,235,1);
+	--ts-hd-bottom-link-hover: rgba(0,104,200,1);
+	--ts-cart-count-bg: rgba(0,104,200,1);
+	--ts-cart-count-color: rgba(255,255,255,1);
+	--ts-input-background: #f8f8f8;
+}
+.footer-container{	
+	--ts-footer-bg: rgba(255,255,255,1);
+	--ts-footer-color: rgba(0,0,0,1);
+	--ts-footer-heading-color: rgba(0,0,0,1);
+	--ts-footer-link-color: rgba(221,40,49,1);
+	--ts-footer-link-hover-color: rgba(0,104,200,1);
+}
+@media only screen and (max-width: 1279px){
+	:root{
+		--ts-logo-width: 135px;
+	}
+	#group-icon-header .logo-wrapper{
+		--ts-logo-width: 135px;
+	}
+}
+
+table.group_table .woocommerce-grouped-product-list-item__label a,
+.woocommerce .products .product .product-name{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}

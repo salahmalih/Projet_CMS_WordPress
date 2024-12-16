@@ -1,0 +1,150 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/TechSouq
+Data file = C:\xampp\htdocs\TechSouq/wp-content/uploads/2024/12/demo-content-import-file_2024-12-14__14-39-42.xml
+Widget file = C:\xampp\htdocs\TechSouq/wp-content/uploads/2024/12/demo-widgets-import-file_2024-12-14__14-39-42.json
+Customizer file = not defined!
+Redux files:
+ecomall_theme_options -> C:\xampp\htdocs\TechSouq/wp-content/uploads/2024/12/demo-redux-import-file_0-2024-12-14__14-39-42.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Rechercher - No Title - Imported
+Catégories - Categories - Imported
+TS - Blogs - Recent Posts - Imported
+TS - Recent Comments - Recent Comments - Imported
+Nuage d’étiquettes - Tags Post - Imported
+
+Blog Detail Sidebar : 
+
+Rechercher - No Title - Imported
+Catégories - Categories - Imported
+TS - Blogs - Popular Posts - Imported
+TS - Recent Comments - Recent Comments - Imported
+Nuage d’étiquettes - Tags Post - Imported
+
+Product Category Sidebar : 
+
+TS - Product Filter By Price - Price - Imported
+TS - Product Filter By Brand - Brands - Imported
+Filter Products by Attribute - Screen Size - Imported
+Filter Products by Attribute - Hard Drive Size - Imported
+Filter Products by Attribute - RAM - Imported
+Filter Products by Attribute - Operating System - Imported
+Filter Products by Attribute - Laptop Computer Type - Imported
+Filter Products by Attribute - Storage Capacity - Imported
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Condition - Imported
+
+Filter Widget Area : 
+
+TS - Product Filter By Brand - Brands - Imported
+TS - Product Filter By Price - Price - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: ecomall_theme_options finished successfully!
+
+---ocdi/after_import---
+
