@@ -92,7 +92,7 @@ Pour accéder au tableau de bord d'administration WordPress, utilisez les inform
 - **Malih Salah**  
 - **Kamal LOTFI**  
 - **Soufiane TIDRARINI**  
-- **Supervision : *Hmedna Brahim*  
+- **Supervision : *Hmedna Brahim***  
 
 ---
 
