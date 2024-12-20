@@ -342,9 +342,8 @@ class Frontend extends App {
 	}
 
 	public function init_swiper_settings() {
-		$e_swiper_latest = Plugin::$instance->experiments->is_feature_active( 'e_swiper_latest' );
-		$this->e_swiper_asset_path = $e_swiper_latest ? 'assets/lib/swiper/v8/' : 'assets/lib/swiper/';
-		$this->e_swiper_version = $e_swiper_latest ? '8.4.5' : '5.3.6';
+		$this->e_swiper_asset_path = 'assets/lib/swiper/v8/';
+		$this->e_swiper_version = '8.4.5';
 	}
 
 	/**
@@ -405,7 +404,7 @@ class Frontend extends App {
 			[
 				'jquery',
 			],
-			'4.1.4',
+			'4.6.13',
 			true
 		);
 
@@ -522,7 +521,7 @@ class Frontend extends App {
 			'flatpickr',
 			$this->get_css_assets_url( 'flatpickr', 'assets/lib/flatpickr/' ),
 			[],
-			'4.1.4'
+			'4.6.13'
 		);
 
 		wp_register_style(
@@ -669,11 +668,6 @@ class Frontend extends App {
 			}
 
 			wp_enqueue_style( 'elementor-frontend' );
-
-			// TODO: Update in version 3.26.0 [ED-15471]
-			if ( ! Plugin::$instance->experiments->is_feature_active( 'e_swiper_css_conditional_loading' ) ) {
-				wp_enqueue_style( 'e-swiper' );
-			}
 
 			if ( is_admin_bar_showing() ) {
 				wp_enqueue_style( 'elementor-wp-admin-bar' );
@@ -1404,7 +1398,6 @@ class Frontend extends App {
 				'previous' => esc_html__( 'Previous', 'elementor' ),
 				'next' => esc_html__( 'Next', 'elementor' ),
 				'close' => esc_html__( 'Close', 'elementor' ),
-				'a11yCarouselWrapperAriaLabel' => __( 'Carousel | Horizontal scrolling: Arrow Left & Right', 'elementor' ),
 				'a11yCarouselPrevSlideMessage' => __( 'Previous slide', 'elementor' ),
 				'a11yCarouselNextSlideMessage' => __( 'Next slide', 'elementor' ),
 				'a11yCarouselFirstSlideMessage' => __( 'This is the first slide', 'elementor' ),
@@ -1430,7 +1423,7 @@ class Frontend extends App {
 			'nonces' => [
 				'floatingButtonsClickTracking' => wp_create_nonce( Module::CLICK_TRACKING_NONCE ),
 			],
-			'swiperClass' => Plugin::$instance->experiments->is_feature_active( 'e_swiper_latest' ) ? 'swiper' : 'swiper-container',
+			'swiperClass' => 'swiper',
 		];
 
 		$settings['settings'] = SettingsManager::get_settings_frontend_config();

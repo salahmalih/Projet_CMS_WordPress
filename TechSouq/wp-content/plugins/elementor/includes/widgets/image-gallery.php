@@ -111,6 +111,10 @@ class Widget_Image_Gallery extends Widget_Base {
 		];
 	}
 
+	public function has_widget_inner_wrapper(): bool {
+		return ! Plugin::$instance->experiments->is_feature_active( 'e_optimized_markup' );
+	}
+
 	/**
 	 * Register image gallery widget controls.
 	 *
@@ -209,6 +213,27 @@ class Widget_Image_Gallery extends Widget_Base {
 				],
 				'condition' => [
 					'gallery_link' => 'file',
+				],
+				'assets' => [
+					'styles' => [
+						[
+							'name' => 'e-swiper',
+							'conditions' => [
+								'terms' => [
+									[
+										'name' => 'gallery_link',
+										'operator' => '===',
+										'value' => 'file',
+									],
+									[
+										'name' => 'open_lightbox',
+										'operator' => '!==',
+										'value' => 'no',
+									],
+								],
+							],
+						],
+					],
 				],
 			]
 		);
